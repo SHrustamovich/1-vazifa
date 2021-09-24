@@ -1,0 +1,16 @@
+body {
+    background-color:#00aaff;
+}
+.row {
+list-style-type: none;
+padding: 0;
+}
+.pokemon__img.mx-auto.d-block {
+    position: absolute;
+    top: -50px;
+    width: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 50;
+    transition: transform 0.3s ease;
+  }
